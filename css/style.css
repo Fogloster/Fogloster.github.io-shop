@@ -9,8 +9,6 @@ body {
   color: #000000;
 
   min-width: 1600px;
-
-  position: relative;
 }
 
 img {
@@ -23,30 +21,30 @@ img {
   width: 1600px;
   margin: 0 auto;
   padding: 0;
+  position: relative;
 }
 
 
 .header {
-  position: absolute;
-  top: -10px;
-  left: 152px;
-  z-index: 1;
-  background-image: url(../img/header-bg.png);
-
+ 
 
 }
 
 .header-wrapper {
-  margin-left: 213px;  
+  position: absolute;
+  top: -10px;
+  z-index: 1;
+  background-image: url(../img/header-bg.png);
+  width: 1600px;
 }
 
 .greeting {
-	position: relative;
-	margin: 0;
-	padding: 0;
-	padding-top: 25px;
-
-	font-size: 15px;
+  position: relative;
+  margin: 0;
+  margin-left: 215px;
+  padding: 0;
+  padding-top: 25px;
+  font-size: 15px;
 	
 }
 
@@ -67,6 +65,7 @@ content: "";
 
 .logo-name {
   margin: 0;
+  margin-left: 215px;
   margin-bottom: 20px;
   padding: 0;
   padding-top: 35px;
@@ -79,7 +78,7 @@ content: "";
 
 .nav-list {
   position: absolute;
-  left: 830px;
+  left: 898px;
   top: 88px;
 
   display: flex;
@@ -140,6 +139,7 @@ content: "";
   background-repeat: no-repeat;
   background-position: 0 0;
   height: 1057px;
+  z-index: -1;
 
   position: relative;
 
@@ -190,15 +190,190 @@ content: "";
 .shopping-section {
   margin: 0;
   padding: 0;
+  position: relative;
+  height: 1107px;
 
   background-image: url(../img/main-bg-normal-size.png);
   background-repeat: no-repeat;
+  
+  
+}
+
+.shopping-section-wrapper {
+  margin-left: 217px;
+  margin-top: -55px;
+
+  width: 1170px;
+
+  background-color: white;
+  position: absolute;
+
+}
+
+
+.shopping-section__advantages-list--icon {
+  margin: 0;
+  margin-left: 135px;
+  padding: 0;
+  position: absolute;
+  top: -63px;
+  list-style: none;
+  display: flex;
+
+}
+
+.shopping-section__advantages-item--icon {
+  margin: 0;
+  margin-right: 255px;
+  padding: 0;
+}
+
+.shopping-section__advantages-item--icon:last-child {
+	margin: 0;
 }
 
 .shopping-section__advantages-list {
   list-style: none;
+  display: flex;
+
   margin: 0;
-  padding: 0;  
+  margin-left: 105px;
+  margin-top: 60px;
+  padding: 0;
+
+}
+
+.shopping-section__advantages-list:first-child {
+  margin-left: 105px;
+}
+
+.shopping-section__advantages-list:last-child {
+  margin: 0;
+}
+
+
+.shopping-section__advantages-item {
+  margin: 0;
+  margin-right: 180px;
+  padding: 0;
+
+}
+
+.shopping-section__advantages-item:last-child {
+	margin: 0;
+}
+
+.advantages-title {
+  margin: 0;
+  padding: 0;
+
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: bold;
+}
+
+.advantages-text {
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+
+  text-align: center;
+}
+
+.shopping-card-wrapper {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.shopping-card-list {
+  margin: 0;
+  margin-left: 30px;
+  margin-top: 110px;
+  padding: 0;
+
+  display: flex;
+  list-style: none;
+}
+
+
+.shopping-card-item:first-child {
+  background-image: url(../img/shopping-card-woman.jpg);
+  background-repeat: no-repeat;
+  width: 535px;
+
+  margin-right: 35px;
+}
+
+.shopping-card-item:nth-child(2) {
+  background-image: url(../img/shopping-card-man.jpg);
+  background-repeat: no-repeat;
+  width: 535px;
+}
+
+.shopping-card__title {
+  margin: 0;
+  margin-left: 40px;
+  margin-top: 50px;
+  padding: 0;
+
+  font-size: 48px;
+  line-height: 38px;
+  font-weight: 800;
+  letter-spacing: -0.07em;
+}
+
+.shopping-card__title--pink {
+  margin: 0;
+  margin-left: 40px;
+  margin-top: 3px;
+  padding: 0;
+
+  font-size: 48px;
+  line-height: 38px;
+  font-weight: 800;
+  letter-spacing: -0.07em;
+  color: #f9236f;
+}
+
+.shopping-card__text {
+  margin: 0;
+  margin-left: 50px;
+  margin-top: 15px;
+  padding: 0;
+
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #6d7375;
+
+  width: 225px;
+  text-align: left;
+}
+
+.shopping-card__btn {
+  margin: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+
+  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  
+  font-size: 20px;
+
+}
+
+.shopping-section__featured-products {
+  margin: 0;
+  margin-top: 110px;
 }
 
 
