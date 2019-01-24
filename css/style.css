@@ -614,3 +614,17 @@ content: "";
   background-color: #cbcbcb;
   z-index: 2;
 }
+
+.season-discont-section {
+  margin: 0;
+  padding: 0;
+  
+  position: relative;
+  background-image: url(img/main-bg-small-size.png);
+  background-repeat: no-repeat;
+}
+
+.season-discont-section__wrapper {
+  
+  z-index: 1;
+}
