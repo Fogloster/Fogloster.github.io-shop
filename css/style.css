@@ -49,8 +49,7 @@ img {
 }
 
 .greeting:after {
-content: "";
-
+  content: "";
   position: absolute;
 
   width: 1170px;
@@ -433,7 +432,7 @@ content: "";
 }
 
 .shopping-section__zoom:hover {
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 
 .shopping-section__featured-products-title--small {
@@ -482,11 +481,10 @@ content: "";
   margin: 0;
   padding: 0;	
   
-  background-image: linear-gradient(to right top, #d8d8d8, #dedede, #e3e3e3, #e9e9e9, #efefef);/
+  background-image: url(../img/news-bg.png);
   background-repeat: no-repeat;
-  height: 898px;
+  height: 888px;
   background-position: 0 0;
- 
 }
 
 .latest-news__title {
@@ -508,9 +506,6 @@ content: "";
 
   font-size: 16px;
   font-weight: 400;
-
-
-
 }
 
 .latest-news__list {
@@ -602,7 +597,7 @@ content: "";
   align-self: bottom;
 }
 
-.like-btn::after {
+.like-btn:after {
   content: "";
   position: absolute;
   top: 0;
@@ -615,16 +610,143 @@ content: "";
   z-index: 2;
 }
 
-.season-discont-section {
+.season-discount-section {
   margin: 0;
   padding: 0;
   
   position: relative;
-  background-image: url(img/main-bg-small-size.png);
-  background-repeat: no-repeat;
+  background-image: url(../img/main-bg-small-size.png);
+  height: 766px;
+  
 }
 
-.season-discont-section__wrapper {
-  
-  z-index: 1;
+.season-discount-section__wrapper {
+  position: absolute;
+  left: 215px;
+  top: -105px;
+  display: flex;
+
+
+  background-color: white;
+
+}
+
+.season-discount-section__title {
+  margin: 0;
+  margin-left: 135px;
+  margin-top: 65px;
+  padding: 0;
+
+  font-size: 25px;
+  font-weight: 900;
+
+}
+
+.season-discount-section__goods-list {
+  margin: 0;
+  margin-left: 30px;
+  margin-top: 50px;
+  padding: 0;
+  padding-right: 119px;
+
+  list-style: none;
+  position: relative;
+}
+
+.season-discount-section__goods-list:last-child {
+  margin-left: 42px;
+  margin-right: 0;
+}
+
+.season-discount-section__goods-item {
+  display: flex;
+  position: relative;
+}
+
+.season-discount-section__goods-item:after {
+  content: " ";
+  position: absolute;
+
+  width: 355px;
+  height: 1px;
+
+  top: 120px;
+
+  background-color: #c2c2c2;
+}
+
+
+.season-discount-section__goods-item:last-child:after {
+  display: none;
+}
+
+.season-discount-section__text-wrapper {
+  margin-left: 30px;
+  margin-bottom: 45px;
+}
+
+.season-discount-section__goods-item--title {
+  margin: 0;
+  padding: 0;
+
+  font-size: 20px;
+}
+
+.season-discount-section__goods-item--text {
+  margin: 0;
+  margin-top: 8px;
+  padding: 0;
+
+  color: #bebebe;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.season-discount-section__goods-item--price {
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+
+  color: #f92349;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.season-discount-section__goods-item--old-price  {
+  color: #737373;
+  font-weight: 500;
+  text-decoration: line-through;
+
+}
+
+
+.season-discount-section__summer-sale {
+  margin-top: 50px;
+
+  background-image: url(../img/banner.png);
+  width: 312px;
+  height: 588px;
+
+  position: relative;
+}
+
+.season-discount-section__summer-sale:after {
+  content: "";
+  position: absolute;
+
+  width: 1105px;
+  height: 1px;
+
+  left: -392px;
+  top: 640px;
+
+  background-color: #c2c2c2;
+  z-index: 2;
+}
+
+.season-discount-section__summer-sale--img-wrapper {
+  margin: 0;
+  margin-left: 63px;
+  margin-top: 88px;
+  padding: 0;
 }
