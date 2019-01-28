@@ -70,6 +70,7 @@
   	<!-- end header / start main -->
   	<main class="main">
   	  <div class="container">
+        <!-- advertise block -->
   	  	<div class="advertise-block">
   	  	  <h1 class="main-title">
   	  	  	<img src="img/fashion-carnival-icon.png">
@@ -81,9 +82,11 @@
   	  	  	Lorem Ipsum. Proin gravida nibh velit it’s a cold world out there. This is Photoshop's version of 
   	  	  	Lorem Ipusm. Proin gravida nibh velit it's a cold<br> world out there.
   	  	  </p>
-  	  	  <button class="shopping-btn">
-  	  	  	Shop Now
-  	  	  </button>
+          <div class="btn-wrapper">
+          <a href="" class="advertise-btn">
+            Shop Now
+          </a>
+        </div>
   	  	</div>
   	  	<!-- start shopping-section -->
   	  	<div class="shopping-section">
@@ -137,9 +140,9 @@
           	      <p class="shopping-card__text">
           	        Lorem Ipsum. Proin gravida nibh velit it’s a cold world
           	      </p>
-          	      <button class="shopping-btn shopping-card__btn">
+          	      <a href="" class="shopping-card__btn">
           	        Shop Now
-          	      </button>
+          	      </a>
           	    </li>
                 <li class="shopping-card-item">
           	      <h3 class="shopping-card__title">
@@ -151,9 +154,9 @@
           	      <p class="shopping-card__text">
           	        Lorem Ipsum. Proin gravida nibh velit it’s a cold world
           	      </p>
-          	      <button class="shopping-btn shopping-card__btn">
+          	      <a href="" class="shopping-card__btn">
           	        Shop Now
-          	      </button>
+          	      </a>
           	    </li>
               </ul>
               <div class="shopping-section__featured-products">
@@ -300,7 +303,7 @@
   	  	</div>
   	  	<!-- end news-section / start discount-section -->
   	  	<div class="season-discount-section">
-  	  	  <div class="season-discount-section__wrapper">
+  	  	  <div class="season-discount-section__container">
   	  	  	<div class="season-discount-section__goods-wrapper">
   	  	  	  <h3 class="season-discount-section__title">
   	  	  	    Our Brands
@@ -372,7 +375,7 @@
   	  	  	    </li>
   	  	  	  </ul>
   	  	  	</div>
-  	  	  	<!--  -->
+  	  	  	<!-- banner -->
   	  	  	<div class="season-discount-section__summer-sale">
   	  	  	  <p class="season-discount-section__summer-sale--img-wrapper">
   	  	  	  	<img src="img/summer-sale.png">
@@ -450,11 +453,64 @@
   	  	  	    </li>
   	  	  	  </ul>
   	  	  	</div>
+            <div class="season-discount-section__modal">
+              <h2 class="season-discount-section__modal--title">
+                Never miss any fashion trending
+              </h2>
+              <p class="season-discount-section__modal--text">
+                Praesent mauris. Fusce nec tellus sed augue semper porta.
+              </p>
+              <div class="season-discount-section__modal--group">
+                <input class="season-discount-section__modal--ipnut" type="text" name="e-mail" id="e-mail">  
+                <input type="submit" class="season-discount-section__modal--btn" value="Subscribe!">
+              </div>
+            </div>
   	  	  </div>
   	  	</div>
-  	    </div>
-  	  	<div class="footer">
-  	  		<p>для доп пространства</p>
-  	  	</div>
+        <div class="brand-logo-section">
+          <span class="brand-logo-section__wrapper">
+            <img class="brand-logo-img" src="img/brand-logo.png">
+          </span>
+        </div>
   	  </div>
   	</main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <h3 class="footer-title">
+                About company
+              </h3>
+              <p class="footer-small-text">
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh velit it's a cold world out there
+              </p>
+              <p class="footer-text footer-adress">
+                0123  Main Road, Your City, NY 123456
+              </p>
+              <p class="footer-text footer-phone">
+                (000) 2345 - 6789 
+              </p>
+              <p class="footer-text footer-email">
+                info@mail.com
+              </p>
+            </li>
+            <li class="footer-item">
+              <h3 class="footer-title">
+                Follow us:
+              </h3>
+              <a href="" class="footer-link footer-pinterest">
+                Facebook
+              </a>
+              <a href="" class="footer-link footer-twitter">
+                Twitter
+              </a>
+              <a href="" class="footer-link footer-facebook">
+                RSS
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    </footer>
